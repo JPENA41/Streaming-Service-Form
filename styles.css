@@ -1,0 +1,7 @@
+/* DISABLE the horizontal scroll feature */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
