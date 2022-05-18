@@ -5,6 +5,7 @@ html, body {
     font-family: 'Kanit', sans-serif;
 }
 
+/* Center title of site & thank you note */
 header {
     text-align: center;
 }
