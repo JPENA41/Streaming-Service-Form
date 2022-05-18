@@ -3,14 +3,17 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: 'Kanit', sans-serif;
+}
+
+header {
     text-align: center;
 }
 
 /* Center groove border */
-p.groove {
+.groove {
     border-style: groove;
     width: 300px;
-    height: 100px;
+    height: 500px;
     border: 1px solid blue;
     margin: auto;
     width: 50%;
