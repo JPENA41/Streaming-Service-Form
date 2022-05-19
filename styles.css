@@ -25,3 +25,12 @@ header {
     padding: 40px;
     background-color: #404040;
 }
+
+/* Within the border, the input question are white */
+.inputinfo {
+    color: white;
+}
+
+label {
+    color: white;
+}
