@@ -3,14 +3,18 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: 'Kanit', sans-serif;
-    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/streaming-services-guide-1618259319.jpg");
+    background: url('https://blog.ventunotech.com/wp-content/uploads/2020/02/Cover_Devices-740x385.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* Center title of site & thank you note */
 header {
     text-align: center;
     padding: 40px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
