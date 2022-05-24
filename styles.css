@@ -2,7 +2,8 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    /* Bg img fits entire screen */
     background: url('https://blog.ventunotech.com/wp-content/uploads/2020/02/Cover_Devices-740x385.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
