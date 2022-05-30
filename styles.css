@@ -11,10 +11,16 @@ html, body {
     background-size: cover;
 }
 
+:root {
+    --primary-color: #fff; 
+    --font: sans-serif;
+    --padding: 40px;
+}
+
 /* Center title of site & thank you note */
 header {
     text-align: center;
-    padding: 40px;
+    padding: var(--padding);
     color: black;
     font-weight: bold;
 }
@@ -24,18 +30,18 @@ header {
     border-style: groove;
     width: 300px;
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--primary-color);
     margin: auto;
     width: 50%;
-    padding: 40px;
+    padding: var(--padding);
     background-color: #404040;
 }
 
 /* Within the border, the input question are white */
 .inputinfo {
-    color: white;
+    color: var(--primary-color);
 }
 
 label {
-    color: white;
+    color: var(--primary-color);
 }
