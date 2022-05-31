@@ -11,6 +11,11 @@ html, body {
     background-size: cover;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 :root {
     --primary-color: #fff; 
     --font: sans-serif;
@@ -44,4 +49,17 @@ header {
 
 label {
     color: var(--primary-color);
+}
+
+/* Text and border appears more clearer on mobile devices */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 1.3vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .groove {
+        width: 80%;
+    }
 }
